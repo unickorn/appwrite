@@ -41,6 +41,7 @@
         "ext-openssl": "*",
         "ext-zlib": "*",
         "ext-sockets": "*",
+        "ext-xz": "*",
         "appwrite/php-clamav": "1.1.*",
         "appwrite/php-runtimes": "0.11.*",
         "utopia-php/framework": "0.21.*",
@@ -57,7 +58,7 @@
         "utopia-php/preloader": "0.2.*",
         "utopia-php/domains": "1.1.*",
         "utopia-php/swoole": "0.3.*",
-        "utopia-php/storage": "0.11.*",
+        "utopia-php/storage": "dev-feat-4003-introduce-xz-compression-for-storage",
         "utopia-php/websocket": "0.1.0",
         "utopia-php/image": "0.5.*",
         "utopia-php/orchestration": "0.6.*",
@@ -73,6 +74,10 @@
     "repositories": [
         {
             "url": "https://github.com/appwrite/runtimes.git",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/unickorn/storage.git",
             "type": "git"
         }
     ],

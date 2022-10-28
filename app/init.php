@@ -155,6 +155,7 @@ const DELETE_TYPE_CACHE_BY_RESOURCE  = 'cacheByResource';
 // Compression type
 const COMPRESSION_TYPE_NONE = 'none';
 const COMPRESSION_TYPE_GZIP = 'gzip';
+const COMPRESSION_TYPE_XZ = 'xz';
 const COMPRESSION_TYPE_ZSTD = 'zstd';
 // Mail Types
 const MAIL_TYPE_VERIFICATION = 'verification';
